@@ -1,0 +1,78 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+body{
+	background-color: black;
+}
+
+#container{	
+
+	overflow: hidden;
+	width:1024px;
+	height:700px;
+	position:relative;
+	margin-top:50px;
+	margin:auto;
+	background: url("../images/background1.jpg");
+
+
+}
+
+#score{
+	position:absolute;
+	width:100px;
+	height:50px;
+	float:left;
+	color:white;
+}
+
+
+#conversation{
+	width: 600px;
+	height:400px;
+	float:left;
+	border-style:solid;
+	border-width: 5px;
+	border-radius: 4px;
+	margin-top:50px;
+	margin-left:100px;
+	opacity: 0.6;
+	background-color: white;
+}
+
+#individus{
+	width: 200px;
+	height:520px;
+	float:right;
+	border-style:solid;
+	border-width: 5px;
+	border-radius: 4px;
+	margin-top:50px;
+	margin-right:100px;
+	opacity: 0.6;
+	background-color: white;
+}
+
+#texte{
+	width: 600px;
+	height:100px;
+	float:left;
+	border-style:solid;
+	border-width: 5px;
+	border-radius: 4px;
+	margin-top:10px;
+	margin-left:100px;
+	opacity: 0.6;
+	background-color: white;
+}
+
+.mots{
+	position:absolute;
+	font-family:arial;
+	width:100px;
+	height:50px;
+	font-weight: bold;
+	text-shadow: 1px 1px black;
+}
